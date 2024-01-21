@@ -244,4 +244,8 @@ body {
     padding: 0;
 }
 
+@media only screen and (max-width: 800px) {
+    nav {
+        font-size: 10px;
+    }
     
