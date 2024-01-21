@@ -1,0 +1,247 @@
+/* Add the following CSS code */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    padding: 20px;
+
+}
+
+.logo img {
+    height: auto;
+    width: 20vw;
+    padding-right: 0px;
+    float: left;
+    padding-left: 10px;
+    display: flex;
+    
+    
+    
+}
+
+nav {
+    display: flex; /* Make the navigation items flex */
+    
+    margin-left: auto;
+    margin-right: 5vw;
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3vh;
+    
+    
+}
+
+nav a {
+    padding: 10px 2vw;
+    margin: 0 5px;
+    border-radius: 5px;
+    display: flex;
+    text-decoration: none;
+    color: #000; /* Set the color for the links */
+}
+
+nav a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.hometext {
+    font-family: "Jockey One-Regular", Helvetica;
+    padding-top: 30vh;
+    width: 450px;
+    font-size: 10mm;
+    padding-bottom: 500px;
+    margin-left: 100px;
+    justify-content: space-between;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    font-size: 5vh;
+    
+    
+
+
+}
+
+#about {
+    height: 100vh;
+    padding: 70px;
+    
+   
+    
+}
+
+#about h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 6vh;
+    padding-top: 50px;
+    padding-left: 30vw;
+
+}
+
+.about_text {
+    display: flex;
+}
+
+.about_text p {
+    margin-top: 17vh;
+    margin-left: 10vh;
+    font-size: 4vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-left: 2vw double #000; 
+    padding: 5px;
+    display: inline-block; /* Make the element only as wide as its content */
+    width: 40vw;
+}
+
+
+
+/*.vertical_line {
+    height: 50vh;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 10px;
+    width: 2px;
+    margin-left: 10vw;
+    margin-top: 15vh;
+
+}
+*/
+
+
+
+.landing img {
+    height: 80vh;
+    width: auto;
+    padding-right: 100px;
+    float: right;
+    margin-left: 10vh;
+    padding-top: 50px;
+    
+
+   
+}
+.landing {
+    display: flex;
+}
+
+
+#team {
+    height: 100vh;
+    padding: 70px;
+    
+   
+    
+}
+
+#team h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 6vh;
+    padding-top: 50px;
+    padding-left: 30vw;
+
+}
+
+.team_text {
+    display: flex;
+}
+
+.team_text p {
+    margin-top: 17vh;
+    margin-left: 10vh;
+    font-size: 4vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-left: 2vw double #000; 
+    padding: 5px;
+    display: inline-block; /* Make the element only as wide as its content */
+    width: 40vw;
+}
+
+/**/
+
+#merch {
+    height: 100vh;
+    padding: 70px;
+    
+   
+    
+}
+
+#merch h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 6vh;
+    padding-top: 50px;
+    padding-left: 30vw;
+
+}
+
+.merch_text {
+    display: flex;
+}
+
+.merch_text p {
+    margin-top: 17vh;
+    margin-left: 10vh;
+    font-size: 4vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-left: 2vw double #000; 
+    padding: 5px;
+    display: inline-block; /* Make the element only as wide as its content */
+    width: 40vw;
+}
+
+#contact {
+    height: 100vh;
+    padding: 70px;
+    
+   
+    
+}
+
+#contact h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 6vh;
+    padding-top: 50px;
+    padding-left: 30vw;
+
+}
+
+.contact_text {
+    display: flex;
+}
+
+.contact_text p {
+    margin-top: 17vh;
+    margin-left: 10vh;
+    font-size: 4vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-left: 2vw double #000; 
+    padding: 5px;
+    display: inline-block; /* Make the element only as wide as its content */
+    width: 40vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+    
