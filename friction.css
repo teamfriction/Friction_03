@@ -7,11 +7,11 @@ html {
 .header {
     display: flex;
     align-items: center; /* Align items vertically in the center */
-    z-index: 1000;
+    z-index: 500;
     width: 100%;
     position: fixed;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 10px;
 
 }
 
@@ -43,6 +43,7 @@ ul {
     align-items: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3vh;
+    
     
     
 }
@@ -235,17 +236,346 @@ nav a:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-left: 2vw double #000; 
     padding: 5px;
-    display: inline-block; /* Make the element only as wide as its content */
+    display: inline-block; 
     width: 40vw;
+}
+
+.drop_down button {
+    display: none;
 }
 
 body {
     margin: 0;
     padding: 0;
 }
+/*
 
-@media only screen and (max-width: 800px) {
-    nav {
-        font-size: 10px;
+
+*/
+
+
+@media screen and (max-width: 767px) {
+
+    html {
+        scroll-behavior: smooth;
     }
     
+    .header {
+        display: inline;
+        align-items: center; /* Align items vertically in the center */
+        width: 100%;
+        position: fixed;
+        background-color: #ffffff;
+        height: 60px;
+        
+    
+    }
+
+    .drop_down button {
+        height: 40px;
+        border-color: none;
+        border:none;
+        display: flex;
+        text-decoration: none;
+        color: #000000; /* Set the color for the links */
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        background-color: white ;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        width: 100px;
+        padding-top: 7px;
+
+       
+        }
+
+        .drop_down button:hover {
+        color: #ffffff;
+        background-color: #000000;
+        }
+
+    /*.drop_down {
+        margin-left: 30vw;
+    }
+       */ 
+
+    
+
+    
+    
+    .logo img {
+        height: auto;
+        width: 150px;
+        margin: 0 auto; /* Center horizontally using margin */
+        display: block; /* Ensure the image is treated as a block element */
+        padding-right: 0px;
+        padding-left: 10px;
+    
+    }
+
+  
+        
+        
+    
+    nav {
+        float: right;
+        margin-right: 10vw;
+        width: 100px;
+       
+        
+        
+        
+        
+    }
+    
+    ul {
+        width: 100px;
+        height: 0px;
+        overflow: hidden;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        align-items: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        position: relative;
+        animation: none;
+        flex-direction: column;
+        z-index: 999;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+     
+        
+        
+        
+        
+        
+    }
+
+   
+        
+    
+    
+    nav a {
+        width: 100px;
+        text-decoration: none;
+        color: #000; /* Set the color for the links */
+        text-align: center;
+        justify-content:center;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    nav a:hover {
+        background-color: #000000;
+        color: rgb(255, 255, 255);
+    }
+    
+    
+    
+    
+    
+    .hometext {
+        font-family: "Jockey One-Regular", Helvetica;
+        padding-top: 7vh;
+        width: 260px;
+        font-size: 10vw;
+        padding-bottom: 10px;
+        margin-left: 0px;
+        justify-content: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        display:flex;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        
+        
+        
+        
+        
+        
+    
+    
+    }
+    
+    
+    #about {
+        height: 100vh;
+        padding: 50px;
+        
+       
+        
+    }
+    
+    #about h2 {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        font-size: 6vh;
+        padding-top: 50px;
+        padding-left: 30vw;
+    
+    }
+    
+    .about_text {
+        display: flex;
+    }
+    
+    .about_text p {
+        margin-top: 10vh;
+        margin-left: 0vh;
+        font-size: 2.5vh;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-left: 2vw double #000; 
+        padding: 5px;
+        display: inline-block; /* Make the element only as wide as its content */
+        width: 70vw;
+    }
+    
+    
+    
+    /*.vertical_line {
+        height: 50vh;
+        border: 5px solid rgb(0, 0, 0);
+        margin: 10px;
+        width: 2px;
+        margin-left: 10vw;
+        margin-top: 15vh;
+    
+    }
+    */
+    
+    
+    
+    .landing img {
+        height: auto;
+        width: 80vw;
+        padding: 3vw;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        float: none;
+        display: flex;
+       
+        
+    
+       
+    }
+    .landing {
+        display: inline-block;
+        width: 100%;
+        
+    }
+    
+    
+    #team {
+        height: 100vh;
+        padding: 50px;
+        
+       
+        
+    }
+    
+    #team h2 {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        font-size: 6vh;
+        padding-top: 50px;
+        padding-left: 30vw;
+    
+    }
+    
+    .team_text {
+        display: flex;
+    }
+    
+    .team_text p {
+        margin-top: 10vh;
+        margin-left: 0vh;
+        font-size: 2.5vh;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-left: 2vw double #000; 
+        padding: 5px;
+        display: inline-block; /* Make the element only as wide as its content */
+        width: 70vw;
+    }
+    
+    /**/
+    
+    #merch {
+        height: 100vh;
+        padding: 70px;
+        
+       
+        
+    }
+    
+    #merch h2 {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        font-size: 6vh;
+        padding-top: 50px;
+        padding-left: 30vw;
+    
+    }
+    
+    .merch_text {
+        display: flex;
+    }
+    
+    .merch_text p {
+        margin-top: 10vh;
+        margin-left: 0vh;
+        font-size: 2.5vh;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-left: 2vw double #000; 
+        padding: 5px;
+        display: inline-block; /* Make the element only as wide as its content */
+        width: 70vw;
+    }
+    
+    #contact {
+        height: 100vh;
+        padding: 70px;
+        
+       
+        
+    }
+    
+    #contact h2 {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        font-size: 6vh;
+        padding-top: 50px;
+        padding-left: 30vw;
+    
+    }
+    
+    .contact_text {
+        display: flex;
+    }
+    
+    .contact_text p {
+        margin-top: 10vh;
+        margin-left: 0vh;
+        font-size: 2.5vh;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-left: 2vw double #000; 
+        padding: 5px;
+        display: inline-block; /* Make the element only as wide as its content */
+        width: 70vw;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    /*
+    
+    
+    */
+}    
